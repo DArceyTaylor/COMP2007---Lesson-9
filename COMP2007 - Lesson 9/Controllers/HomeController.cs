@@ -8,11 +8,12 @@ namespace COMP2007___Lesson_9.Controllers
 {
     public class HomeController : Controller
     {
+        //
+        // GET: /Home/
         public ActionResult Index()
         {
             return View();
         }
-
         
     }
 }
