@@ -5,10 +5,10 @@ using System.Web;
 
 namespace COMP2007___Lesson_9.Models
 {
-    public class Album
+    public class Song
     {
-        public int AlbumID { get; set; }
+        public int SongID { get; set; }
         public string Title { get; set; }
-        public Genre Genre { get; set; }
+        public int Duration { get; set; }
     }
 }
